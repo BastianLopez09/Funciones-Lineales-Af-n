@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.contenedor {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.valor {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cajas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.caja {
+    background-color: #eeeeee;
+    border: 2px solid gray;
+    padding: 15px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.lineal {
+    border-color: green;
+}
+
+.afin {
+    border-color: orange;
+}
+
+.inactiva {
+    display: none;
+}
+
+.enlaces {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: lightblue;
+}

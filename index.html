@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificador de Funciones</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Clasificador de Funciones</h1>
+
+        <h3>Función f(x) = bx + c</h3>
+
+        <p>b = <span class="valor" id="b">0</span></p>
+
+        <p>c = <span class="valor" id="c">0</span></p>
+
+        <button onclick="generarFuncion()">
+            Generar / Cambiar
+        </button>
+
+        <h2 id="resultado">Resultado</h2>
+
+        <h3 id="formula">f(x) = bx + c</h3>
+
+        <div class="cajas">
+
+            <!-- FUNCION LINEAL -->
+
+            <div class="caja lineal" id="cajaLineal">
+
+                <h2>LINEAL</h2>
+
+                <p>Características:</p>
+
+                <ul>
+                    <li>Su fórmula es f(x) = bx.</li>
+                    <li>Pasa por el origen (0,0).</li>
+                    <li>Es una línea recta.</li>
+                    <li>Si b es positivo, es creciente.</li>
+                    <li>Si b es negativo, es decreciente.</li>
+                </ul>
+
+            </div>
+
+            <!-- FUNCION AFIN -->
+
+            <div class="caja afin" id="cajaAfin">
+
+                <h2>AFÍN</h2>
+
+                <p>Características:</p>
+
+                <ul>
+                    <li>Su fórmula es f(x) = bx + c.</li>
+                    <li>No pasa por el origen.</li>
+                    <li>Corta el eje Y en (0,c).</li>
+                    <li>Su pendiente depende de b.</li>
+                    <li>Es una traslación vertical.</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="enlaces">
+
+            <h2>GeoGebra</h2>
+
+            <p>Grafica tu función en GeoGebra:</p>
+
+            <a href="https://www.geogebra.org/classic" target="_blank">
+                Abrir GeoGebra Clásico
+            </a>
+
+            <h3>Archivo GeoGebra</h3>
+
+            <a href="funcion.ggb" download>
+                Descargar archivo .ggb
+            </a>
+
+        </div>
+
+        <footer>
+            <p>Proyecto de Matemáticas - Funciones Lineales y Afines</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
